@@ -36,16 +36,11 @@ body{
 }
 
 .logo-2{
-    height: 58px;
-    width: 58px;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
 }
-.logo{
-    width: 272px;
-    height: 58px;
-    size: 40px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
+
 .slogan{
     width: 500px;
     height: 100px;
@@ -56,6 +51,7 @@ body{
     opacity: 1;
     size: 40px;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 .form-group{
     width: 429px;

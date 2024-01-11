@@ -1,0 +1,16 @@
+.nav-item{
+    padding: 10px 25px 10px 25px;
+}
+.nabar-brand{
+    padding: 25px 25px 25px 25px;
+}
+.card{
+    margin: 15px 15px 15px 15px;
+}
+.table th{
+    color: #ADADAD;
+    text-transform: uppercase;
+}
+.graph-head{
+    text-align: right;
+}
