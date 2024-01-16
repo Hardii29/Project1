@@ -1,0 +1,22 @@
+.navbar{
+    overflow: hidden;
+}
+.nav-item{
+    padding: 10px 25px 10px 25px;
+}
+.nav-item:hover{
+    color: #C8242F;
+    background-color: #FFF3F4;
+}
+.nabar-brand{
+    padding: 25px 25px 25px 25px;
+    
+}
+@media screen and (max-width: 360px) {
+    .navbar-collapse.collapse{
+        display: inline;
+    }
+    .nav ul{
+        display: flex;
+    }
+  }

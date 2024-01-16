@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Index Page</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <img src="images/hero-image.png" class="hero" />
+        <div class="first">
+        <img src="images/hero-image.png" class="hero"/>
+      </div>
       </div>
       <div class="col">
-        <h1>
+        <div class="second">
           <img src="images/logo.svg" class="logo-2" />
-        </h1>
-        <h1 class="slogan">We are <span style="color: #C8242F;">experts</span> in business, marketing, growth, & sales.</h1>
+        
+        <h1 class="slogan">We are <span style="color: #C8242F; font-weight: bold;">experts</span> in business, marketing, growth, & sales.</h1>
         <div class="login">Login into your account</div>
         <div class="form-style">
           <form>
@@ -30,13 +32,14 @@
             <div class="form-group pb-3">
             <div class="d-flex align-items-center justify-content-between">
             <button type="button" class="btn btn-danger">Login</button>
-            <div><a href="#" style="color: #adadad;">Forget Password?</a></div>
+            <div class="forgot"><a href="#" style="color: #adadad;">Forget Password?</a></div>
           </div>
           </div>
           </div>
           </form>
           <div class="pt-4" style="color: #adadad;">
             Are you a new member? <a href="#" style="color: #C8242F;">Register here</a>
+          </div>
           </div>
 </body>
 </html>

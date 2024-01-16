@@ -11,7 +11,12 @@ form{
     border-radius: 30px;
     cursor: pointer;
   }
-  
+  .col-2,.col-10{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
   #custom-button:hover {
     background-color: #C8242F;
     color: white;
@@ -31,4 +36,18 @@ form{
   }
   .nav-link:hover{
     color: #C8242F;
+  }
+  @media only screen and (max-width: 360px){
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+    
+    .col-2{
+      display: none;
+    }
+    .col-10.main{
+      width: 100%;
+      margin-right: 0%;
+    }
   }
