@@ -1,175 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styleDashboard.css">
-    <link rel="stylesheet" href="css/styleInnerpage.css">
-    <title>Innerpage</title>
-</head>
-<body>
-    <iframe src="navbar.html" style="width: 97.5rem;
-        height: 4rem; border: none;" iframetag></iframe>
 
-   <div class="container-fluid">
-        <div class="row">
-           <div class="col-2">
-          <iframe src="sidebar.html" style="width: 15rem;
-          height: 80rem; border: none;" iframetag></iframe>
-   </div>
-            <div class="col-10 main pt-3 mt-3 mr-0 bg-light" >
-                <h3 class="dashboard" style="margin: 30px;"><strong>
-                Analysis</strong>
-                </h3>
-                <form>
-                    <h4>One Column</h4>
-                    <div class="mb-3">
-                        <input type="name" class="form-control" id="name" placeholder="name">
-                      </div>
-                      <div class="mb-3">
-                      <select class="form-control" placeholder="Dropdown">
-                        <option value="" disabled selected hidden>Dropdown</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                    </div>
-                      <div class="mb-3">
-                        <textarea class="form-control" id="mul" rows="3" placeholder="multiple line"></textarea>
-                      </div>
-                      <h4>Two Column</h4>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col">
-                            
-                                <label for="username" class="col" >
-                                    <span class="h6 small bg-white text-muted pl-1 pr-1 ">Username</span></label>
-                          <input type="text" class="form-control mt-n3" >
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col">
-                            <select class="form-control" aria-placeholder="Dropdown">
-                                <option value="" disabled selected hidden>Dropdown</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                              </select>
-                        </div>
-                      </div>
-                      <h4>Three Column</h4>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                          </div>
-                      </div>
-                      <h4>Four Column</h4>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                        </div>
-                        <div class="col">
-                          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                          </div>
-                          <div class="col">
-                            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                          </div>
-                      </div>
-                      <div class="mb-4">
-                      <h4>Other Elements</h4>
-                      <h5>File Uploads</h5>
-                      <input type="file" hidden="hidden" />
-                      <div class="mb-4">
-                        <button type="button" id="custom-button"><img src="images/cloud-upload-icon.svg" height="20" width="20" margin="10px">Upload</button>
-                        <span id="custom-text">No item selected</span>
-                    </div>
-                        <h5>Radio Button</h5>
-                        <div class="form-check form-check-inline mb-4">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">Option 1</label>
-                          </div>
-                          <div class="form-check form-check-inline mb-4">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">Option 2</label>
-                          </div>
-                          <h5>Checkbox</h5>
-                          <div class="form-check form-check-inline mb-4">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
-                          </div>
-                          <div class="form-check form-check-inline mb-4">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Option 2</label>
-                          </div>
-                       
-                        <h5>Snackbar</h5>
-                        <div class="row mb-3">
-                            <div class="col">
-                        <div class="alert alert-primary bg-white" >
-                            <img src="images/info-icon.svg" height="20" width="20">
-                            A simple primary alert—check it out!
-                          </div>
-                        </div>
-                          <div class="col">
-                          <div class="alert alert-success bg-white" >
-                            <img src="images/success-icon.svg" height="20" width="20">
-                            A simple success alert—check it out!
-                          </div>
-                        </div>
-                        </div>
-                          <div class="row">
-                            <div class="col">
-                          <div class="alert alert-danger bg-white" >
-                            <img src="images/error-icon.svg" height="20" width="20">
-                            A simple danger alert—check it out!
-                          </div>
-                        </div>
-                          <div class="col">
-                          <div class="alert alert-warning bg-white" >
-                            <img src="images/warning-icon.svg" height="20" width="20">
-                            A simple warning alert—check it out!
-                          </div>
-                        </div>
-                        </div>
-                        <h5>Call of Action</h5>
-                        <button type="button" id="custom-button">Primary</button>
-                        <button type="button" id="custom-button">Secondary</button>
-                    <h5 class="mt-4">Tabs</h5>
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <a class="nav-link" id="simple-tab-0" data-bs-toggle="tab" href="#simple-tabpanel-0" role="tab" aria-controls="simple-tabpanel-0" >Tab 1</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <a class="nav-link" id="simple-tab-1" data-bs-toggle="tab" href="#simple-tabpanel-1" role="tab" aria-controls="simple-tabpanel-1" >Tab 2</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <a class="nav-link" id="simple-tab-2" data-bs-toggle="tab" href="#simple-tabpanel-2" role="tab" aria-controls="simple-tabpanel-2" >Tab 3</a>
-                        </li>
-                      </ul>
-                      <div class="tab-content pt-2" id="tab-content">
-                        <div class="tab-pane-active" id="simple-tabpanel-0" role="tabpanel" aria-labelledby="simple-tab-0">Tab 1 selected</div>
-                        <div class="tab-pane" id="simple-tabpanel-1" role="tabpanel" aria-labelledby="simple-tab-1">Tab 2 selected</div>
-                        <div class="tab-pane" id="simple-tabpanel-2" role="tabpanel" aria-labelledby="simple-tab-2">Tab 3 selected</div>
-                      </div>
+<head>
+    <title>innerpage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./innerpage.css">
+</head>
+
+<body>
+    <div class="flex-container mainbody">
+        <div class="d-flex justify-content-between">
+            <div class="left">
+                <button class="hamburger">
+                <img class=" menu-icon" src="images/menu-bar.svg" onclick="openCloseMenu()" alt="">
+                <i class="closeIcon material-icons" onclick="openCloseMenu()">close</i>
+            </button>
+                <img class="logo" src="images/logo.svg" alt="">
+                <img class="searchIcon" src="images/search-icon.svg" alt="">
+                
+                <p class="search">Search</p>
+            </div>
+            <div class="right">
+                <img class="notif" src="images/notification-icon.svg" alt="">
+                <img class="profile" src="images/profile.png" alt="">
+                <p class="name">John Doe</p>
+                <img class="arrow" src="images/downward-arrow.svg" alt="">
+
+            </div>
+        </div>
+        <div class="d-flex main-content">
+            <div class="menu sidebar">
+                <div class="d-flex inditem">
+                    <img class="sidebaritems" src="images/dashboard-default.svg" alt="gxshg">
+                    <p> Dashboard</p>
                 </div>
+                <div class="d-flex inditem active" style="background-color:#FFF3F4;">
+                    <img class="sidebaritems" src="images/graph-active.svg" alt="gxshg">
+                    <p>Analysis</p>
+                </div>
+                <div class="d-flex inditem">
+                    <img class="sidebaritems" src="images/inbox-default.svg" alt="gxshg">
+                    <p>Inbox</p>
+                </div>
+                <div class="d-flex inditem">
+                    <img class="sidebaritems" src="images/clock-default.svg" alt="gxshg">
+                    <p>History</p>
+                </div>
+                <div class="d-flex inditem">
+                    <img class="sidebaritems" src="images/user-default.svg" alt="gxshg">
+                    <p>Users</p>
+                </div>
+                <div class="d-flex inditem">
+                    <img class="sidebaritems" src="images/maintenance-default.svg" alt="gxshg">
+                    <p>Maintainence</p>
+                </div>
+                <div class="d-flex inditem">
+                    <img class="sidebaritems" src="images/setting-default.svg" alt="gxshg">
+                    <p>Settings</p>
+                </div>
+            </div>
+            <div class="container main-center">
+            
+                <h1 id="analysis">Analysis</h1>
+                <form class="content">
+                    <p>One Column</p>
+                    <div class="mb-3">
+
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" id="autoSizingSelect">
+                            <option selected>
+                                <p id="dropdown">Dropdown</p>
+                            </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Multiple Line"
+                            rows="3"></textarea>
+                    </div>
+                </form>
+
+          
+                <form class="twoColumn row">
+                    <p id="twocol">Two Column</p>
+                    <div class="col-md-6 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="Name" placeholder="Name">
+                        <label for="Name">Name</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="Password">Password</label>
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-floating mb-3">
+                        <select class="form-select" id="autoSizingSelect">
+                            <option selected>
+                                <p id="dropdown">Dropdown</p>
+                            </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </form>
+
+                
+                <form class="threeColumn row">
+                    <p id="threecol">Three Column</p>
+                    <div class="col-md-4 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="focus" placeholder="Focus">
+                        <label for="focus">Focus</label>
+                    </div>
+                    <div class="col-md-4 col-sm-12 form-floating mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col-md-4 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="disabled" placeholder="disabled" disabled>
+                        <label for="disabled">Disabled</label>
+                    </div>
+                </form>
+                <form class="fourColumn row">
+                    <p id="fourcol">Four Column</p>
+                    <div class="col-lg-3 col-md-6 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Designation">
+                        <div id="emailHelp" class="form-text">Enter Valid Data.</div>
+                        <label for="focus">Designation</label>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp"
+                            placeholder="Name">
+                        <div id="NameHelp" class="form-text">Enter your full Name as per ID.</div>
+                        <label for="focus">Name</label>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 form-floating mb-3">
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        <label for="username">Username</label>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 form-floating mb-3">
+                        <select class="form-select" id="autoSizingSelect">
+                            <option selected>
+                                <p id="dropdown">Select</p>
+                            </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p id="ode">Other Design Elements</p>
+                        <p id="fileupload">File Upload</p>
+                        <div class="input-group">
+                            <input type="file" id="getFile" hidden />
+                            <label for="getFile" id="uploadlabel">
+                                <img src="./images/cloud-upload-icon.svg" /> Upload
+                            </label>
+
+                            <span id="file-chosen">No item selected</span>
+
+                        </div>
+                    </div>
+                    <div id="onoff" class="row">
+                        <p>Radio Button</p>
+                        <div class="form-check col-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                Option 1
+                            </label>
+                        </div>
+                        <div class="form-check col-2">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Option 2
+                            </label>
+                        </div>
+                        <div class="col-8">
+
+                        </div>
+                    </div>
+                    <div id="right" class="row">
+                        <p>Checkbox</p>
+                        <div class="form-check col-2">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Option 1
+                            </label>
+                        </div>
+                        <div class="form-check col-2">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Option 2
+                            </label>
+                        </div>
+                    </div>
+                    <div class="snackbar">
+                        <p class="snacktitle">Snackbar</p>
+                        <div class="snackbar1">
+                            <div class=" stack errorstack">
+                                <img class="stackimage" src="./images/error-icon.svg">
+                                <p class="stacktxt">This is an error message</p>
+                            </div>
+                            <div class=" stack infostack">
+                                <img class="stackimage" src="./images/info-icon.svg">
+                                <p class="stacktxt">This is an information message!</p>
+                            
+                        </div>
+                        
+                            <div class=" stack warningstack">
+                                <img class="stackimage" src="./images/warning-icon.svg">
+                                <p class="stacktxt">This is a warning message</p>
+                            </div>
+                            <div class=" stack successstack">
+                                <img class="stackimage" src="./images/success-icon.svg">
+                                <p class="stacktxt">This is a success message!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calltoaction">
+                        <p>Call to action</p>
+                        <div class="row btn-group">
+                            <div class="col-1">
+                                <button type="button" class="btn btn-danger cta-prim ">Primary</button>
+                            </div>
+                            <div class="col-4">
+
+                            </div>
+                            <div class="col-1">
+                                <button type="button" class="btn btn-outline-danger cta-second ">Secondary</button>
+                            </div>
+                            <div class="col-9">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs">
+                        <p class="tabheading">Tabs</p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#tab1" type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Tab 1</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#tab2"
+                                    type="button" role="tab" aria-controls="profile" aria-selected="false">Tab
+                                    2</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tab3"
+                                    type="button" role="tab" aria-controls="contact" aria-selected="false">Tab
+                                    3</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing</p>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing</p>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book. It has survived not only five centuries, but also the leap into
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in the
+                                    1960s with the release of Letraset sheets containing</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </form>
             </div>
         </div>
-   </div>
-</body>
+    </div>
+    <script src="./js/custom.js"></script>
+<script src="./js/menu.js"></script>
+    </body>
 </html>

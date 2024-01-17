@@ -1,83 +1,161 @@
-html{
-    font-size: 97.5%;
-}
-
-body{
-    background: #FAFAFA;
-    
-}
-.container-fluid{
-    position:absolute;
+.hero-image {
+    width: 415px;
+    margin-top: 41px;
+    outline: #ffffff solid 16px;
+    box-shadow: 0px 9px 31px 4px #0000000a;
     display: block;
-    margin: 4rem 0rem 0rem 4rem;
-}
-.first{
-    text-align: center;
-}
-.first, .second{
-    margin-top: 4rem;
-}
-.hero{
-    border-radius: 50%;
-    height: 36rem;
-    width: 36rem;
-    box-shadow: 0px 4px 31px #0000000A;
-    border: 1.25rem solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .maincont {
+    margin-top: -72px;
+  }
+  .btn {
+    border-radius: 188px;
+    background-color: #c8242f;
+    color: white;
+    border-color: #c8242f;
+    width: 97px;
+  }
+  .forgot {
+    color: #adadad;
+    text-align: right;
+    margin: auto;
+  }
+  .form-control mt-3 {
+    color: #adadad;
+    border-color: #adadad;
+  }
+  body {
+    background: #fafafa 0% 0% no-repeat padding-box;
     opacity: 1;
-}
-.login{
-    font-size: 1.56rem;
-    font-family: sans-serif;
-    color: #3E3E3E;
-    width: 16.25rem;
-    height: 2rem;
-    margin-top: 15px;
-}
-
-.logo-2{
-    height: 3.625rem;
-    width: 17rem;
-    margin-bottom: 20px;
-}
-
-.slogan{
-    width: 31.25rem;
-    height: 6.25rem;
+  }
+  #mainrow {
+    margin-top: 129px;
+  }
+  .rightdiv {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .companylogo {
+    height: auto;
+    max-width: 44%;
+    margin-top: 35px;
+  }
+  #maintext {
     text-align: left;
-    
+    font: normal normal 300 40px/47px Roboto;
     letter-spacing: 0px;
-    color: #3E3E3E;
+    color: #3e3e3e;
     opacity: 1;
-    size: 2.5rem;
-    margin-bottom: 1rem;
-    margin-top: 0.625rem;
-}
-.form-group{
-    width: 26.8rem;
-    height: 3rem;
-    margin: 0.8125rem 0rem 0.8125rem 0rem;
-    
-}
-.form-control{
-    padding: 0.875rem 0rem 0.875rem 0.875rem;
-}
-.btn{
-    border-radius: 30px;
-    width: 8.625rem;
-    height: 2.8rem;
-    margin: 0.8rem 0rem 1.5rem 0rem;
-}
-
-@media  screen and (max-width:360px) {
-    .container-fluid{
-        margin: 0rem;
+    margin-top: 22px;
+  }
+  #boldtext {
+    font-weight: bold;
+    color: #c8242f;
+  }
+  #login {
+    padding-left: 15px;
+    font: normal normal normal 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #3e3e3e;
+    opacity: 1;
+  }
+  #buttonlogin {
+    margin-top: 21px;
+    margin-bottom: 11px;
+  }
+  #lastrow {
+    padding-top: 10px;
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 0px;
+    color: #adadad;
+    opacity: 1;
+    display: inline;
+    margin-left: 2px;
+  }
+  #pinktext {
+    text-decoration-line: none;
+    color: #c8242f;
+    padding-left: 4px;
+  }
+  .form-style {
+    width: 425px;
+  }
+  @media screen and (max-width: 1200px) {
+    .hero-image {
+      width: 272px;
     }
-    .first{
-        text-align: center;
+    .form-style {
+      width: 390px;
     }
-    
-    .btn{
-        width: 100%;
+  }
+  @media screen and (max-width: 992px) {
+    .hero-image {
+      width: 261px;
+      margin-top: 94px;
     }
-   
-}
+    #maintext {
+      font-size: 25px;
+    }
+    #login {
+      font-size: 18px;
+    }
+    .form-style {
+      width: 325px;
+    }
+    .forgot {
+      margin-top: 3px;
+      font-size: 14px;
+    }
+    .btn {
+      font-size: 14px;
+      width: 97px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .hero-image {
+      width: 223px;
+      margin-top: 103px;
+      margin-left: -30px;
+    }
+    #maintext {
+      line-height: 29px;
+      font-size: 23px;
+    }
+    #login {
+      font-size: 16px;
+    }
+    .form-style {
+      width: 265px;
+    }
+    .forgot {
+      margin-top: 3px;
+      font-size: 12px;
+    }
+    .btn {
+      font-size: 12px;
+      width: 97px;
+    }
+    #lastrow {
+      font-size: 13px;
+    }
+    .companylogo {
+      max-width: 61%;
+    }
+  }
+  
+  @media screen and (max-width: 538px) {
+    .hero-container {
+      display: none;
+    }
+    .right-container {
+      width: 100%;
+      margin-left: 26px;
+    }
+    .hero-image {
+      display: none;
+    }
+  }
+  
